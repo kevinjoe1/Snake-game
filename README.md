@@ -22,7 +22,8 @@ This is a fully functional **Snake Game** where the player controls a snake to e
 - Python 3.x  
 - No additional packages required (uses built-in `turtle` graphics)
 
-- 🎮 How to Play
+
+ ### 🎮 How to Play
 
 Use the arrow keys to control the snake:
 
@@ -36,7 +37,8 @@ Use the arrow keys to control the snake:
 
 Eat the red food to grow your snake and increase your score. Avoid hitting the walls or your own tail!
 
-📂 File Structure
+### 📂 File Structure
+
 snake-game/
 ├── main.py          # Main game loop and event handling
 ├── snake.py         # Snake class with movement logic
@@ -45,8 +47,9 @@ snake-game/
 ├── data.txt         # High score storage
 └── README.md        # Project documentation
 
-🧩 Game Components
-🐍 Snake (snake.py)
+### 🧩 Game Components
+
+#### 🐍 Snake (snake.py)
 
 Handles snake creation and initialization
 
@@ -56,7 +59,7 @@ Controls snake growth when food is consumed
 
 Prevents invalid direction changes (e.g., up → down directly)
 
-🍎 Food (food.py)
+#### 🍎 Food (food.py)
 
 Creates food pellets at random screen locations
 
@@ -64,7 +67,7 @@ Refreshes food position after consumption
 
 Uses turtle graphics for visual representation
 
-🏆 Scoreboard (scoreboard.py)
+#### 🏆 Scoreboard (scoreboard.py)
 
 Tracks current game score
 
@@ -74,7 +77,7 @@ Displays score information on screen
 
 Handles score reset functionality
 
-🎮 Main Game (main.py)
+#### 🎮 Main Game (main.py)
 
 Coordinates all game components
 
@@ -84,7 +87,7 @@ Manages game loop and timing
 
 Processes keyboard input
 
-🚧 Future Enhancements
+### 🚧 Future Enhancements
 
 Multiple difficulty levels
 
